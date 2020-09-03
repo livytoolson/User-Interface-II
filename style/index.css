@@ -50,12 +50,12 @@ time, mark, audio, video {
   nav{
     display:flex;
     justify-content:flex-end;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
   }
 
   nav a{
     display:inline-block;
-    width:33%;
+    width:22%;
     text-align:center;
     border-radius:10px;
     padding:1% 0;
@@ -78,10 +78,25 @@ time, mark, audio, video {
   }
 
   /*main content & flex boxes*/
+  img{
+      height: 250px;
+      width: 250px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
 
+  .projects{
+    display: flex;
+    flex-direction:row;
+    align-items:center; 
+    width: 30%
+  }
 
   /*footer section styles*/
   footer{
     background-color:lightgoldenrodyellow;
     padding:4% 0;
+    display:flex;
+    justify-content:center;
   }
