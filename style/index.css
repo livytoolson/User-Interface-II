@@ -31,7 +31,15 @@ time, mark, audio, video {
   html{
     font-size:62.5%;
   }
-  body, h2, p{
+
+  h2{
+      font-size:4rem;
+      line-height:1.5;
+      font-family:'Quicksand', sans-serif;
+      padding:1rem;
+  }
+
+  body, p{
     font-size:1.8rem;
     line-height:1.5;
     font-family: 'Quicksand', sans-serif;
@@ -48,19 +56,31 @@ time, mark, audio, video {
   }
 
   /*header section styles*/
-  nav{
+  header{
     display:flex;
-    justify-content:flex-end;
-    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    padding:.8rem;
+    margin:0 auto;
+  }
+
+  nav{
+    width:60%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
   }
 
   nav a{
-    display:inline-block;
-    width:22%;
     text-align:center;
     border-radius:10px;
     padding:1% 0;
     color:lightslategrey;
+  }
+
+  .name{
+      display:flex;
+      flex-direction:row;
+      justify-content:flex-start;
   }
 
   .pink{
@@ -79,7 +99,6 @@ time, mark, audio, video {
       background-color:lightgoldenrodyellow;
   }
 
-  /*main content & flex boxes*/
   #headerContent{
     background-color:lightsteelblue;
     color:#fff;
@@ -87,6 +106,17 @@ time, mark, audio, video {
     text-align:center;
   }
 
+  #headerContent .pink{
+    padding:1rem;
+    width:1rem;
+    border-radius:15%;
+  }
+
+  #headerContent p{
+      padding:1rem;
+  }
+
+  /*main content & flex boxes*/
   img{
       height: 250px;
       width: 250px;
