@@ -117,8 +117,8 @@ time, mark, audio, video {
 
   /*main content & flex boxes*/
   img{
-      height: 250px;
-      width: 250px;
+      height: 20rem;
+      width: 20rem;
       background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -177,4 +177,8 @@ time, mark, audio, video {
 
   /*phone*/
   @media(max-width: 500px){
+    img{
+      width:15rem;
+      height:15rem;
+    }
   }
