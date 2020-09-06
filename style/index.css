@@ -177,8 +177,18 @@ time, mark, audio, video {
 
   /*phone*/
   @media(max-width: 500px){
+    h1{
+      font-size:3rem;
+    }
+    body, p{
+      font-size:1.3rem;
+    }
     img{
       width:15rem;
       height:15rem;
+    }
+    footer nav a{
+      padding:1.3rem;
+      width:7rem;
     }
   }
