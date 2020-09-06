@@ -182,6 +182,12 @@ time, mark, audio, video {
     }
     body, p{
       font-size:1.3rem;
+      line-height:1.3;
+    }
+    #headerContent .pink{
+      padding:.75rem;
+      width:.75rem;
+      border-radius:12%;
     }
     img{
       width:15rem;
